@@ -41,6 +41,10 @@ def load_files(paths: List[str], ignore: List[str]) -> List[str]:
     """
     files: List[str] = []
     for path in paths:
+        if not os.path.isabs(path):
+            script_folder = os.path.dirname(os.path.realpath(__file__))
+            root_folder = os.path.abspath(os.path.join(script_folder, os.pardir))
+            path = os.path.join(root_folder, path)
         path = os.path.realpath(path)
         if os.path.isfile(path):
             files.append(path)
