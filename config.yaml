@@ -1,0 +1,34 @@
+# Example settings file for CorrectHorseBatteryStaple python script
+
+# ---Dictionary specific settings---
+
+# Where to find dictionaries (Can be a list or string)
+dictionary: "./dictionary"
+# Don't use files that have these names (Must be a list)
+ignore: ["jargon.txt", "science_terms.txt"]
+
+# ---Password specific settings---
+password:
+  # String of word separators (One will be chosen at random if there is more than one)
+  separators: "-"
+
+  # Minimum amount of words needed
+  min_words: 4
+
+  # Minimum overall password length (Includes separator and numbers)
+  min_length: 20
+
+  # Where to put random numbers (Numbers are 0-9 and single digit only)
+  # Options:
+  # "none": No numbers are used
+  # "end": Random number added at end of password
+  # "all": Random number added at end of all words
+  numbered: "none"
+
+  # How many passwords to generate at once
+  amount: 4
+
+  # For individual words
+  words:
+    # Make first letter uppercase in words (Boolean)
+    capitalize: True

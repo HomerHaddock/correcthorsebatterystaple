@@ -1,0 +1,6 @@
+Adjectives: https://github.com/aaronbassett/Pass-phrase/blob/master/adjectives.txt
+Nouns: https://www.desiquintans.com/nounlist
+Verbs: https://github.com/aaronbassett/Pass-phrase/blob/master/verbs.txt
+Extras: https://bitbucket.org/jvdl/correcthorsebatterystaple/src/master/data/wordlist.txt
+Jargon: https://bitbucket.org/jvdl/correcthorsebatterystaple/src/master/data/jargon.txt
+Science Terms: https://bitbucket.org/jvdl/correcthorsebatterystaple/src/master/data/science-terms.txt
