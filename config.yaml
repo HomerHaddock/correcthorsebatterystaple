@@ -3,7 +3,7 @@
 # ---Dictionary specific settings---
 
 # Where to find dictionaries (Can be a list or string)
-dictionary: "./dictionary"
+dictionary: "dictionary"
 # Don't use files that have these names (Must be a list)
 ignore: ["jargon.txt", "science_terms.txt"]
 
